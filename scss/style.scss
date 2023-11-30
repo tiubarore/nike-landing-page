@@ -1,0 +1,27 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.navbar {
+  background: #fff7f7;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 665px) {
+  .register {
+    margin-top: 50px;
+  }
+  .image-container {
+    overflow: hidden;
+  }
+}
